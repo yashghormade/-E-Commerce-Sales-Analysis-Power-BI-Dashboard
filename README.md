@@ -165,6 +165,23 @@ The analysis uncovers valuable business insights related to sales trends, custom
 
 ---
 
+📌 Dataset Information
+📦 Total Orders: 9,800+
+📅 Time Period: 2015–2018
+🌍 Regions Covered: West, East, Central, South
+📊 Dataset Type: E-Commerce Sales Data
+
+---
+🧹 Data Cleaning
+
+✅ Loaded dataset using pd.read_csv()
+✅ Checked missing/null values
+✅ Converted date columns using pd.to_datetime()
+✅ Extracted Order Month & Order Year
+✅ Verified data consistency
+✅ Prepared cleaned dataset for Power BI
+---
+
 # 📌 Conclusion
 
 This project demonstrates end-to-end data analysis skills using **Python** and **Power BI** — from raw data cleaning to dashboard development and business insight generation.

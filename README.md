@@ -1,101 +1,164 @@
-🛒 E-Commerce Sales Analysis & Power BI Dashboard
-Show Image Show Image Show Image Show Image
-📌 Overview
-End-to-end exploratory data analysis of 9,800+ Superstore orders using Python and Power BI, uncovering sales trends, regional performance, and customer behavior patterns.
+# 🛒 E-Commerce Sales Analysis & Power BI Dashboard
 
-📂 Table of Contents
+---
 
-Case Study
-Dataset Description
-Tech Stack
-Data Cleaning
-Data Analysis & Insights
-Dashboard
-Key Findings
+## 📌 Overview
 
+End-to-end **Exploratory Data Analysis (EDA)** of 9,800+ Superstore orders using **Python** and **Power BI**.
 
-📋 Case Study
-Analyzed real-world e-commerce sales data to identify top-performing categories, regions, products, and seasonal trends to support data-driven business decisions.
+The project analyzes:
 
-📊 Dataset Description
-ColumnDescriptionOrder IDUnique order identifierOrder DateDate of order placementShip ModeShipping method usedSegmentCustomer segmentRegionGeographic regionCategoryProduct categorySub-CategoryProduct sub-categoryProduct NameName of productSalesRevenue generated
-Total Records: 9,800+ orders | Period: 2015–2018
+- 📈 Sales Trends
+- 🌍 Regional Performance
+- 👥 Customer Behavior
+- 🛒 Product Analysis
+- 🚚 Shipping Preferences
 
-🛠️ Tech Stack
-ToolPurposePython 3.13Core programmingPandasData manipulationNumPyNumerical computationMatplotlibData visualizationSeabornStatistical visualizationJupyter NotebookDevelopment environmentPower BIInteractive dashboardGitHubVersion control
+An interactive Power BI dashboard was built to visualize business performance and support data-driven decisions.
 
-🧹 Data Cleaning
+---
 
-Loaded dataset using pd.read_csv() with encoding='latin1'
-Verified missing values — zero missing values found ✅
-Converted date columns using pd.to_datetime() with dayfirst=True
-Extracted Order Month and Order Year for time-series analysis
+# 📂 Table of Contents
 
+- 📌 Overview
+- 📊 Dataset Description
+- 🛠️ Tech Stack
+- 🧹 Data Cleaning
+- 🔍 Exploratory Data Analysis
+- 📊 Dashboard
+- 💡 Key Findings
+- 📌 Conclusion
+- 👨‍💻 Author
 
-🔍 Data Analysis & Insights
-📦 Category Analysis
+---
 
-Technology — highest revenue ~$830K
-Furniture — second ~$730K
-Office Supplies — third ~$700K
+# 📊 Dataset Description
 
-🌍 Regional Analysis
+| Column | Description |
+|---|---|
+| Order ID | Unique order identifier |
+| Order Date | Date of order placement |
+| Ship Mode | Shipping method |
+| Segment | Customer segment |
+| Region | Sales region |
+| Category | Product category |
+| Sub-Category | Product sub-category |
+| Product Name | Product name |
+| Sales | Revenue generated |
 
-West — top region ~$710K
-East — second ~$669K
-South — lowest ~$389K — growth opportunity!
+### 📌 Dataset Info
 
-📅 Monthly Trend
+- 📦 Total Orders: 9,800+
+- 📅 Period: 2015–2018
+- 🌍 Regions: West, East, Central, South
 
-November–December — peak sales every year
-January–February — lowest sales period
-Clear Q4 seasonality pattern identified
+---
 
-🏆 Top Products
+# 🛠️ Tech Stack
 
-Canon imageCLASS 2200 Copier — #1 product ~$60K
-Most top products from Technology category
+- 🐍 Python
+- 📊 Pandas
+- 🔢 NumPy
+- 📉 Matplotlib
+- 🎨 Seaborn
+- 📓 Jupyter Notebook
+- 📊 Power BI
+- 🌐 GitHub
 
-👥 Customer Segment
+---
 
-Consumer — 50.8% of total revenue
-Corporate — 30.4%
-Home Office — 18.8%
+# 🧹 Data Cleaning
 
-🚚 Ship Mode
+✅ Checked missing values  
+✅ Converted date columns  
+✅ Extracted Order Month & Year  
+✅ Verified data consistency  
+✅ Prepared dataset for Power BI  
 
-Standard Class — most preferred shipping
-Same Day — least used — premium pricing
+---
 
-📈 Yearly Growth
+# 🔍 Exploratory Data Analysis
 
-2015: $480K → 2018: $722K
-50% revenue growth in 4 years!
+## 📦 Category Analysis
 
+- Technology generated highest revenue
+- Furniture ranked second
+- Office Supplies showed stable sales
 
-📊 Power BI Dashboard
-VisualChart TypeTotal Sales KPICardCategory SalesBar ChartRegion PerformanceBar ChartMonthly TrendLine ChartCustomer SegmentPie ChartYearly GrowthBar ChartSub-Category SalesBar ChartShip Mode AnalysisBar Chart
+---
 
-💡 Key Findings
-✅ Technology category generated highest revenue (~$830K)
-✅ West region is top performer — focus market
-✅ Q4 (Nov-Dec) shows consistent sales spike — festive season impact
-✅ Consumer segment contributes 50%+ revenue
-✅ Business grew 50% from 2015 to 2018
-✅ Canon Copier — single highest selling product
+## 🌍 Regional Analysis
 
-🚀 Installation & Usage
-Step 1 — Clone repository
-bashgit clone https://github.com/yashghormade/ecommerce-analysis.git
-Step 2 — Install libraries
-bashpip install pandas numpy matplotlib seaborn
-Step 3 — Run notebook
-Open sample.ipynb in Jupyter Notebook and run all cells!
+- West region achieved highest sales
+- East region followed closely
+- South region had lowest sales
 
-📌 Conclusion
-This project demonstrates end-to-end data analysis skills — from raw data cleaning to interactive Power BI dashboard — generating actionable business insights from e-commerce sales data.
+---
 
-👨‍💻 Author
-Yash Ghormade
-🎓 AIML Engineer | 📊 Aspiring Data Analyst | 💼 Open to Internships
-🔗 GitHub | 💼 LinkedIn
+## 📅 Sales Trend Analysis
+
+- Q4 showed highest sales every year
+- Jan–Feb recorded lower sales activity
+- Seasonal business pattern identified
+
+---
+
+## 🏆 Top Products
+
+- Canon Copier became highest-selling product
+- Most top-selling products belonged to Technology category
+
+---
+
+## 👥 Customer Segment Analysis
+
+| Segment | Contribution |
+|---|---|
+| Consumer | 50.8% |
+| Corporate | 30.4% |
+| Home Office | 18.8% |
+
+---
+
+# 📊 Power BI Dashboard
+
+Dashboard includes:
+
+- 📈 KPI Cards
+- 🌍 Region-wise Sales
+- 📦 Category Analysis
+- 🏆 Best-Selling Products
+- 👥 Segment Insights
+- 🚚 Ship Mode Analysis
+- 📅 Sales Trend Visuals
+
+---
+
+# 💡 Key Findings
+
+✅ Technology category generated highest revenue  
+✅ West region became top-performing market  
+✅ Consumer segment contributed majority revenue  
+✅ Q4 showed consistent sales spikes  
+✅ Business achieved strong growth from 2015–2018  
+
+---
+
+# 📌 Conclusion
+
+This project demonstrates end-to-end data analysis workflow using **Python** and **Power BI** — from data cleaning to dashboard development and business insight generation.
+
+---
+
+# 👨‍💻 Author
+
+## Yash Ghormade
+
+🎓 AIML Engineer  
+📊 Aspiring Data Analyst  
+💼 Open to Internship Opportunities  
+
+### 🔗 Connect With Me
+
+- LinkedIn: https://www.linkedin.com/in/yash-ghormade-35b238226/
+- GitHub: https://github.com/yashghormade

@@ -1,119 +1,139 @@
-# 🛒 E-Commerce Sales Analysis & Power BI Dashboard
+# 📊 E-Commerce Sales Analysis & Power BI Dashboard
 
 ---
 
-## 📌 Overview
+## 📌 Project Overview
 
-End-to-end **Exploratory Data Analysis (EDA)** of 9,800+ Superstore orders using **Python** and **Power BI**.
+This project focuses on **Exploratory Data Analysis (EDA)** of E-Commerce sales data using **Python** and **Power BI**.  
+The analysis uncovers valuable business insights related to sales trends, customer behavior, regional performance, and product analysis.
 
-The project analyzes:
+### 🔍 The project analyzes:
 
-- 📈 Sales Trends
-- 🌍 Regional Performance
-- 👥 Customer Behavior
-- 🛒 Product Analysis
-- 🚚 Shipping Preferences
-
-An interactive Power BI dashboard was built to visualize business performance and support data-driven decisions.
+- 📈 Sales Trends  
+- 🛒 Product Performance  
+- 🌍 Regional Analysis  
+- 👥 Customer Segments  
+- 🚚 Shipping Analysis  
+- 📊 Business Growth Patterns  
 
 ---
 
 # 📂 Table of Contents
 
-- 📌 Overview
-- 📊 Dataset Description
-- 🛠️ Tech Stack
-- 🧹 Data Cleaning
-- 🔍 Exploratory Data Analysis
-- 📊 Dashboard
-- 💡 Key Findings
-- 📌 Conclusion
-- 👨‍💻 Author
+- 📌 Project Overview  
+- 📊 Dataset Information  
+- 🛠️ Tech Stack  
+- 🔄 Project Workflow  
+- 🧹 Data Cleaning  
+- 🔍 Exploratory Data Analysis  
+- 📊 Dashboard  
+- 💡 Key Insights  
+- 📌 Conclusion  
+- 👨‍💻 Author  
 
 ---
 
-# 📊 Dataset Description
+# 📊 Dataset Information
 
-| Column | Description |
-|---|---|
-| Order ID | Unique order identifier |
-| Order Date | Date of order placement |
-| Ship Mode | Shipping method |
-| Segment | Customer segment |
-| Region | Sales region |
-| Category | Product category |
-| Sub-Category | Product sub-category |
-| Product Name | Product name |
-| Sales | Revenue generated |
-
-### 📌 Dataset Info
-
-- 📦 Total Orders: 9,800+
-- 📅 Period: 2015–2018
-- 🌍 Regions: West, East, Central, South
+| Feature | Description |
+|:---|:---|
+| 📅 Period | 2015–2018 |
+| 📦 Orders | 9,800+ |
+| 🌍 Regions | West, East, Central, South |
+| 🛒 Categories | Technology, Furniture, Office Supplies |
 
 ---
 
 # 🛠️ Tech Stack
 
-- 🐍 Python
-- 📊 Pandas
-- 🔢 NumPy
-- 📉 Matplotlib
-- 🎨 Seaborn
-- 📓 Jupyter Notebook
-- 📊 Power BI
-- 🌐 GitHub
+| Tool / Library | Purpose |
+|:---|:---|
+| Python | Data Analysis |
+| Pandas | Data Manipulation |
+| NumPy | Numerical Computation |
+| Matplotlib | Data Visualization |
+| Seaborn | Statistical Visualization |
+| Power BI | Interactive Dashboard |
+| Jupyter Notebook | Development Environment |
+| GitHub | Version Control |
+
+---
+
+# 🔄 Project Workflow
+
+## 📥 Step 1 — Data Collection
+- Imported E-Commerce dataset using Pandas  
+- Loaded CSV files into Jupyter Notebook  
+
+---
+
+## 🧹 Step 2 — Data Cleaning
+- Checked missing values  
+- Converted date columns  
+- Extracted Month & Year columns  
+- Removed duplicate rows  
+
+---
+
+## 📊 Step 3 — Exploratory Data Analysis
+- Sales Trend Analysis  
+- Category-wise Analysis  
+- Regional Performance Analysis  
+- Product Analysis  
+- Customer Segment Analysis  
+
+---
+
+## 📈 Step 4 — Dashboard Development
+- Exported cleaned dataset  
+- Built interactive Power BI dashboard  
+- Added KPI cards and analytical visuals  
 
 ---
 
 # 🧹 Data Cleaning
 
-✅ Checked missing values  
-✅ Converted date columns  
-✅ Extracted Order Month & Year  
-✅ Verified data consistency  
-✅ Prepared dataset for Power BI  
+✅ Verified missing/null values  
+✅ Converted date columns using `pd.to_datetime()`  
+✅ Extracted Order Month & Order Year  
+✅ Removed duplicate entries  
+✅ Exported cleaned CSV files for Power BI  
 
 ---
 
 # 🔍 Exploratory Data Analysis
 
-## 📦 Category Analysis
+## 📈 Sales Trend Analysis
 
-- Technology generated highest revenue
-- Furniture ranked second
-- Office Supplies showed stable sales
+- Sales increased consistently from 2015–2018  
+- Highest sales observed during Q4 (Nov–Dec)
+
+---
+
+## 🛒 Category Analysis
+
+| Category | Revenue |
+|:---|:---|
+| Technology | ~$830K |
+| Furniture | ~$730K |
+| Office Supplies | ~$700K |
 
 ---
 
 ## 🌍 Regional Analysis
 
-- West region achieved highest sales
-- East region followed closely
-- South region had lowest sales
-
----
-
-## 📅 Sales Trend Analysis
-
-- Q4 showed highest sales every year
-- Jan–Feb recorded lower sales activity
-- Seasonal business pattern identified
-
----
-
-## 🏆 Top Products
-
-- Canon Copier became highest-selling product
-- Most top-selling products belonged to Technology category
+| Region | Performance |
+|:---|:---|
+| West | Highest Sales |
+| East | Second Highest |
+| South | Lowest Sales |
 
 ---
 
 ## 👥 Customer Segment Analysis
 
-| Segment | Contribution |
-|---|---|
+| Segment | Revenue Contribution |
+|:---|:---|
 | Consumer | 50.8% |
 | Corporate | 30.4% |
 | Home Office | 18.8% |
@@ -122,43 +142,41 @@ An interactive Power BI dashboard was built to visualize business performance an
 
 # 📊 Power BI Dashboard
 
-Dashboard includes:
+### 📌 Dashboard Includes:
 
-- 📈 KPI Cards
-- 🌍 Region-wise Sales
-- 📦 Category Analysis
-- 🏆 Best-Selling Products
-- 👥 Segment Insights
-- 🚚 Ship Mode Analysis
-- 📅 Sales Trend Visuals
+- 📈 Sales Trend Analysis  
+- 🛒 Category-wise Sales  
+- 🏆 Best-Selling Products  
+- 🌍 State-wise Sales Map  
+- 👥 Customer Segment Insights  
+- 🎛️ Interactive Filters & Slicers  
+- 📌 KPI Cards & Performance Metrics  
 
 ---
 
-# 💡 Key Findings
+# 💡 Key Insights
 
 ✅ Technology category generated highest revenue  
-✅ West region became top-performing market  
-✅ Consumer segment contributed majority revenue  
-✅ Q4 showed consistent sales spikes  
-✅ Business achieved strong growth from 2015–2018  
+✅ West region was the top-performing region  
+✅ Consumer segment contributed 50%+ revenue  
+✅ Q4 showed peak sales trends  
+✅ Canon Copier was the best-selling product  
+✅ Standard Class was the most preferred shipping mode  
 
 ---
 
 # 📌 Conclusion
 
-This project demonstrates end-to-end data analysis workflow using **Python** and **Power BI** — from data cleaning to dashboard development and business insight generation.
+This project demonstrates end-to-end data analysis skills using **Python** and **Power BI** — from raw data cleaning to dashboard development and business insight generation.
 
 ---
 
 # 👨‍💻 Author
 
-## Yash Ghormade
+## Yash Ghormade  
+🎓 AIML Engineer | 📊 Aspiring Data Analyst  
 
-🎓 AIML Engineer  
-📊 Aspiring Data Analyst  
-💼 Open to Internship Opportunities  
+### 🔗 LinkedIn  
+[LinkedIn Profile](https://www.linkedin.com/in/yash-ghormade-35b238226/)
 
-### 🔗 Connect With Me
-
-- LinkedIn: https://www.linkedin.com/in/yash-ghormade-35b238226/
-- GitHub: https://github.com/yashghormade
+---
